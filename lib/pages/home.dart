@@ -1,6 +1,6 @@
-import 'package:stimmes/pages/home.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
+import '../quiz_screen.dart';
+
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -39,6 +39,7 @@ class HomePage extends StatelessWidget {
           )
         )
       ),
+      body: const QuizContent(),
     );
 
   }
