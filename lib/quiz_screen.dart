@@ -118,7 +118,7 @@ class _QuizContentState extends State<QuizContent> {
             Text(
               currentQuestion.text,
               style: const TextStyle(
-                fontSize: 22.0,
+                fontSize: 30.0,
                 fontFamily: 'Czcionka',
                 // fontWeight: FontWeight.bold,
                 // color: Color(0xff61a0af),
@@ -143,7 +143,7 @@ class _QuizContentState extends State<QuizContent> {
                   child: Text(
                     currentQuestion.options[optionIndex],
                     style: const TextStyle(
-                      fontSize: 16.0,
+                      fontSize: 20.0,
                       fontFamily: 'Czcionka3'
                       ),
                   ),
